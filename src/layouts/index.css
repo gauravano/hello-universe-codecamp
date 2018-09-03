@@ -1,3 +1,18 @@
+#image-intro{
+  width: 340px;
+  height:400px;
+}
+
+#outer{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+}
+
+#ele1{
+  margin-right: 100px;
+}
+
 /*html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
