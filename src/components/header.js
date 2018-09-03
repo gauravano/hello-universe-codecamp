@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Typing from 'react-typing-animation'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -23,7 +24,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          <Typing>
+            <span>I am Gaurav Sachdeva</span>
+          </Typing>
+
         </Link>
       </h1>
     </div>
