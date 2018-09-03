@@ -6,7 +6,6 @@ import Typist from 'react-typist';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 import { SocialIcon } from 'react-social-icons';
-const delay = require('delay');
 import Typing from 'react-typing-animation';
 
 console.log(style);
@@ -28,7 +27,7 @@ const IndexPage = () => (
               <Typist.Delay ms={5000} />
             <h4>For knowing more about me visit - <a href="http://gauravsachdeva.me">http://gauravsachdeva.me</a></h4>
           </Bounce>
-          
+
           <Zoom>
             <span><SocialIcon url="https://linkedin.com/in/gauravano" />&nbsp;&nbsp;
             <SocialIcon url="https://github.com/gauravano/" color="black" />&nbsp;&nbsp;
